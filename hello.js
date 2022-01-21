@@ -1,7 +1,7 @@
-// Greets the world.
-console.log("Hello world!");
+"use strict";
+exports.__esModule = true;
 // This is an industrial-grade general-purpose greeter function:
 function greet(person, date) {
-    console.log("Hello ".concat(person, ", today is ").concat(date, "!"));
+    console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
 }
-greet("Brendan", Date.now());
+greet("Brendan", new Date());
