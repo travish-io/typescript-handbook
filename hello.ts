@@ -6,3 +6,6 @@ function greet(person: string, date: Date) {
 }
 
 greet("Brendan", new Date());
+
+// inferred types
+let msg = "hello there!";
